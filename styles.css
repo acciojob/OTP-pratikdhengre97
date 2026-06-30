@@ -1,52 +1,52 @@
-/*  your css code here. If applicable */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #f4f4f4;
 }
 
 .container {
-    background: #fff;
-    padding: 30px;
+    background: white;
+    padding: 40px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 #verification_heading {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #verification_subtext {
-    color: gray;
-    margin-bottom: 25px;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 500px;
 }
 
 .code-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
 }
 
 .code {
-    width: 50px;
-    height: 60px;
+    width: 55px;
+    height: 65px;
+    font-size: 30px;
     text-align: center;
-    font-size: 24px;
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6px;
+    outline: none;
 }
 
 .code:focus {
-    outline: none;
-    border-color: #3498db;
+    border-color: royalblue;
 }
